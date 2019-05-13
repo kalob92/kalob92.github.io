@@ -9,17 +9,24 @@
         <!-- UIkit JS -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/js/uikit.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.1.4/js/uikit-icons.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Mono:700" rel="stylesheet">
         <link rel='stylesheet' href="./assets/style.css">
     </head>
 
     <body>
         <div class="uk-position-relative">
-                <img src="./assets/images/bench.jpg" uk-parallax="y: -20vh">
+                <div class="uk-inline">
+                    <img src="./assets/images/bench.jpg" uk-parallax="y: -20vh" uk-img>
+                    <div class="uk-overlay uk-light uk-position-center" id="kalob-title">
+                        <h1 class="uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="opacity: 1,0; y: 0,10vh; viewport: 0.5">Kalob Carter</h1>
+                        <h4 class="uk-text-center uk-margin-auto uk-margin-auto-vertical" uk-parallax="opacity: 1,0; y: 0,15vh; viewport: 0.5">Full Stack Web Developer</h4>
+                    </div>
+                </div>
                 <div class="uk-position-top">
                     <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
                         <div class="uk-navbar-left">
                             <ul class="uk-navbar-nav">
-                                <li class="uk-active"><a href="#">Home</a></li>
+                                <li class="uk-active"><a href="https://kalob92.github.io">Home</a></li>
                                 <li><a href="#">Item</a></li>
                                 <li>
                                     <a href="#">Parent</a>
@@ -37,16 +44,11 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="uk-navbar-right">
-                            <ul class="uk-navbar-nav">
-                                <li>K A L O B &ThickSpace; C A R T E R</li>
-                            </ul>
-                        </div>
                     </nav>
                 </div>
         </div>
-        <div class="uk-position-relative">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nostrum vitae impedit eos ullam voluptates iusto aspernatur aut qui dolores animi consectetur, tempore consequuntur necessitatibus ad. Earum error recusandae voluptate.ß
+        <div class="uk-position-relative" id="about">
+            <p class="uk-text-lead uk-light">Kalob Carter is a Full Stack Web Developer in Denver, Colorado</p><p>He currently attends the University of Denver Coding Boot Camp and will graduate from the program this autumn. He excels in front-end development, where he is proficient in HTML, CSS, and JavaScript and is eager to learn new frameworks and libraries as he discovers them.</p>
         </div>
 
 
