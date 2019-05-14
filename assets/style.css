@@ -4,7 +4,7 @@ body text: font-family: 'Open Sans', sans-serif;
 */
 
 body {
-    background-image: url('./images/asfalt-dark.png'), linear-gradient(#111a1c, #1a1b1f);
+    background-image: url('./images/asfalt-dark.png'), linear-gradient(#111a1c, #18181a);
     font-family: 'Open Sans', sans-serif;
 }
 
