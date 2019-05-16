@@ -8,11 +8,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-#bench-hero {
-    background-image: url('./images/bench.jpg');
+h1 {
+    font-family: 'Roboto Mono', monospace;
 }
 
-h1 {
+.uk-modal-title {
     font-family: 'Roboto Mono', monospace;
 }
 
