@@ -24,9 +24,9 @@ h1 {
     border-image: linear-gradient(to bottom, #3e312f,rgba(0, 0, 0, 0)) 1 100%;
 }
 
-#kalob-title {
+/* #kalob-title {
     top: 40%;
-}
+} */
 
 p {
     text-indent: 1rem;
